@@ -1,0 +1,13 @@
+dbt_project:
+  outputs:
+    dev:
+      account: "***********************"
+      database: C_CardDB
+      password: "*********************"
+      role: db_admin_C_CardDB
+      schema: bronze  
+      threads: 4
+      type: snowflake
+      user: "**********************"
+      warehouse: C_CardWH
+  target: dev
