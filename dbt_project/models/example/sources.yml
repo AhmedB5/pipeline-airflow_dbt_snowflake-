@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: C_CardDB      
+    schema: bronze     
+    tables:
+      - name : CardBase  
+      - name : CustomerBase  
+      - name : TransactionBase
+      - name : FraudBase
