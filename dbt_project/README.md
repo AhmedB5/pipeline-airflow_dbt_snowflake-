@@ -9,6 +9,8 @@ This project implements a modern data pipeline using:
 ---
 
 ## Project Structure
+
+```plaintext
 pipeline-airflow_dbt_snowflake-/
 │
 ├── Snowflake_Scripts/
@@ -53,7 +55,7 @@ pipeline-airflow_dbt_snowflake-/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
-
+```
 --
 ## Data Flow
 
@@ -80,7 +82,7 @@ pipeline-airflow_dbt_snowflake-/
    - **Fact and Dimension tables** are designed for reporting.  
    - Stored in the **gold schema** for BI tools and analysis.  
 
-<img width="714" height="456" alt="Screenshot 2025-09-29 141530" src="https://github.com/user-attachments/assets/d8bca132-bf04-4048-b987-cd00d8b5df93" />
+<img width="914" height="456" alt="Screenshot 2025-09-29 141530" src="https://github.com/user-attachments/assets/d8bca132-bf04-4048-b987-cd00d8b5df93" />
 
 ---
 ## Orchestration (Airflow)
