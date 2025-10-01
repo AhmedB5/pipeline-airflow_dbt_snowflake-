@@ -56,7 +56,6 @@ pipeline-airflow_dbt_snowflake-/
 ├── LICENSE
 └── README.md
 ```
---
 ## Data Flow
 
 1. **Raw Data (CSV files)**  
