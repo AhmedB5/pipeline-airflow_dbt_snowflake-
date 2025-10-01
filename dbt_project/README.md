@@ -7,6 +7,9 @@ This project implements a modern data pipeline using:
 - **dbt** for data transformation and modeling  
 - **CSV datasets** as the raw data source  
 ---
+### Failure Notification
+Airflow is configured to send an automatic email to drmohamedahmedb@gmail.com whenever any Task in the DAG fails.
+---
 
 ## Project Structure
 
